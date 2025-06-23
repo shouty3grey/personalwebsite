@@ -3,80 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom right, #d0f0c0, #ffe4ec);
-      color: #2f3e46;
-    }
-
-    header {
-      background-color: #cdeac0;
-      padding: 2rem;
-      text-align: center;
-      border-bottom: 2px solid #a7c4a0;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      color: #386641;
-    }
-
-    .content {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .project {
-      background: #fdf6f9;
-      border-left: 5px solid #b7e4c7;
-      padding: 1rem;
-      margin-bottom: 1.5rem;
-      border-radius: 8px;
-    }
-
-    .project h2 {
-      margin-top: 0;
-      color: #6a994e;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      color: #555;
-      font-size: 0.9rem;
-    }
-  </style>
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Rachel's Portfolio</h1>
-    <p>Electrical Engineering Projects & Explorations</p>
+     <!-- <h1>Rachel Chan</h1> -->
+        <nav class = "navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
   </header>
 
+    <div class="header">
+        <div class="header-bg"></div>
+        <div class="profile-info">
+            <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+        </div>
+    </div> 
   <div class="content">
-    <div class="project">
-      <h2>Smart Solar Tracker</h2>
-      <p>Designed a system to optimize solar panel angle based on sunlight using microcontrollers and light sensors.</p>
-    </div>
-
-    <div class="project">
-      <h2>RT-PCR Simulation Tool</h2>
-      <p>Developed a simulation to visualize real-time PCR cycles for educational purposes.</p>
-    </div>
-
-    <div class="project">
-      <h2>Biomedical Sensor Prototype</h2>
-      <p>Worked on a low-cost biosensor prototype for detecting glucose levels with minimal materials.</p>
+    <div class = "project">
+     <h2>Hi! I'm Rachel! </h2>
+      <p>I am an incoming sophomore at Harvard University planning to study Electrical Engineering with a secondary in Global Health and Health Policy (GHHP). My focus on bioelectronics through sensors is in relation to my goals for diagnostic devices in high-risk areas within the humantiarian aid sector.</p>
     </div>
   </div>
-
-  <footer>
-    &copy; 2025 Rachel Chan. All rights reserved.
-  </footer>
 </body>
 </html>
